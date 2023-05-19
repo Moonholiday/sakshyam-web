@@ -1,24 +1,22 @@
 {
   "name": "sakshyam-web",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Sakshyam's website",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+      "dev": "next dev -H 0.0.0.0",
+      "build": "next build"
   },
+  "keywords": [],
+  "author": "Sakshyam Shrestha",
+  "license": "ISC",
   "dependencies": {
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
     "framer-motion": "^10.12.12",
-    "next": "13.4.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "next": "^13.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
